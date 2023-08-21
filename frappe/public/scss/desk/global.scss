@@ -278,12 +278,12 @@ h2 {
 .btn-xs {
 	@extend .btn-sm;
 	line-height: 1.2;
-	padding: var(--padding-xs) var(--padding-sm);
+	padding: var(--padding-sm) var(--padding-sm);
 	font-size: var(--text-xs);
 }
 
 .input-xs {
-	height: 33px;
+	height: 35px;
 	font-size: var(--text-md);
 }
 
@@ -533,7 +533,7 @@ body.no-sidebar {
 }
 
 .app-logo {
-	width: 24px;
+	width: 50px;
 }
 
 .alt-pressed .alt-underline {

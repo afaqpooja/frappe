@@ -60,7 +60,7 @@ body {
 			input[type="password"] {
 				border: none;
 				color: var(--text-color);
-				font-size: var(--text-base);
+				font-size: var(--text-md);
 				background-color: var(--control-bg);
 				margin-bottom: 1rem;
 			}
@@ -74,7 +74,7 @@ body {
 			}
 
 			.form-label {
-				font-size: var(--text-base);
+				font-size: var(--text-md);
 			}
 
 			.forgot-password-message {
@@ -83,7 +83,7 @@ body {
 
 				> * {
 					color: var(--text-light);
-					font-size: var(--text-sm);
+					font-size: var(--text-md);
 				}
 			}
 
@@ -121,6 +121,7 @@ body {
 				border: none;
 				display: flex;
 				place-content: center;
+				align-items: center;
 
 				&.btn-salesforce {
 					i {

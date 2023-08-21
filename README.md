@@ -2,7 +2,7 @@
 	<h1>
 		<br>
 		<a href="https://frappeframework.com">
-			<img src=".github/frappe-framework-logo.svg" height="50">
+			<img src=".github/logo.png" height="50">
 		</a>
 	</h1>
 	<h3>

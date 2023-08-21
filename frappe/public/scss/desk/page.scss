@@ -107,7 +107,8 @@
 	flex-wrap: wrap;
 	background-color: var(--card-bg);
 	border-bottom: 1px solid var(--border-color);
-	@media (max-width: --md-width){
+
+	@media(max-width: map-get($grid-breakpoints, "md")) {
         flex-direction: column;
     }
 
