@@ -1,8 +1,8 @@
-$input-height: 28px !default;
+$input-height: 30px !default;
 
 :root,
 [data-theme="light"] {
-	--brand-color: #0089FF;
+	--brand-color: #ffeaa7;
 
 	--pink-900: #5B1E34;
 	--pink-800: #702440;
@@ -174,14 +174,14 @@ $input-height: 28px !default;
 	--bg-cyan: var(--cyan-50);
 
 	//font sizes
-	--text-xs: 11px;
-	--text-sm: 12px;
-	--text-md: 13px;
-	--text-base: 14px;
-	--text-lg: 16px;
-	--text-xl: 18px;
-	--text-2xl: 20px;
-	--text-3xl: 22px;
+	--text-xs: 12px;
+	--text-sm: 13px;
+	--text-md: 15px;
+	--text-base: 15px;
+	--text-lg: 17px;
+	--text-xl: 19px;
+	--text-2xl: 21px;
+	--text-3xl: 24px;
 
 	--text-on-blue: var(--blue-700);
 	--text-on-light-blue: var(--blue-600);
@@ -210,9 +210,9 @@ $input-height: 28px !default;
 	--alert-bg-success: var(--green-50);
 
 	// Layout Colors
-	--bg-color: var(--gray-50);
+	--bg-color: #fdfaff;
 	--fg-color: white;
-	--navbar-bg: white;
+	--navbar-bg: #ffedb0;
 	--fg-hover-color: var(--gray-100);
 	--card-bg: var(--fg-color);
 	--disabled-text-color: var(--gray-700);
@@ -260,8 +260,8 @@ $input-height: 28px !default;
 	--border-radius-lg: 12px;
 	--border-radius-full: 999px;
 
-	--primary-color: #2490EF;
-	--btn-height: 30px;
+	--primary-color: #ffeeb6;
+	--btn-height: 45px;
 
 	// input
 	--input-height: #{$input-height};
@@ -269,9 +269,9 @@ $input-height: 28px !default;
 
 	// Checkbox
 	--checkbox-right-margin: var(--margin-xs);
-	--checkbox-size: 14px;
+	--checkbox-size: 17px;
 	--checkbox-focus-shadow: 0 0 0 2px var(--gray-300);
-	--checkbox-gradient: linear-gradient(180deg, #4AC3F8 -124.51%, var(--primary) 100%);
+	--checkbox-gradient: linear-gradient(135deg, #162148 -124.51%, var(--primary) 100%);
 
 	// "diff" colors
 	--diff-added: var(--green-100);

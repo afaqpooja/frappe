@@ -70,6 +70,7 @@
 .btn.btn-default {
 	background-color: var(--fg-color);
 	color: var(--text-color);
+	height: 33px;
 	&:hover, &:active {
 		background: var(--fg-hover-color);
 		color: var(--text-color);

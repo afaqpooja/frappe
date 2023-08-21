@@ -107,6 +107,9 @@
 	flex-wrap: wrap;
 	background-color: var(--card-bg);
 	border-bottom: 1px solid var(--border-color);
+	@media (max-width: --md-width){
+        flex-direction: column;
+    }
 
 	.form-group {
 		padding: 0px 5px;

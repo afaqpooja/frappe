@@ -68,7 +68,7 @@
 
 .list-row {
 	padding: 15px 15px 15px 0px;
-	height: 45px;
+	height: 51px;
 	cursor: pointer;
 	transition: color 0.2s;
 	-webkit-transition: color 0.2s;
@@ -367,6 +367,7 @@ input.list-check-all {
 		flex-wrap: wrap;
 		// width: 65%;
 		flex: 1;
+		align-items: center;
 
 		.form-group {
 			min-width: 150px;
@@ -375,7 +376,7 @@ input.list-check-all {
 
 	.filter-section {
 		display: flex;
-		padding: 0 var(--padding-xs);
+		padding: 0 var(--padding-xs) 0 0;
 	}
 
 	.filter-selector .btn-group {
