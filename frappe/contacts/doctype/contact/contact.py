@@ -23,8 +23,6 @@ class Contact(Document):
 
 		address: DF.Link | None
 		company_name: DF.Data | None
-		department: DF.Data | None
-		designation: DF.Data | None
 		email_id: DF.Data | None
 		email_ids: DF.Table[ContactEmail]
 		first_name: DF.Data | None
@@ -38,13 +36,11 @@ class Contact(Document):
 		links: DF.Table[DynamicLink]
 		middle_name: DF.Data | None
 		mobile_no: DF.Data | None
+		other_names_used: DF.Data | None
 		phone: DF.Data | None
 		phone_nos: DF.Table[ContactPhone]
 		pulled_from_google_contacts: DF.Check
-		salutation: DF.Link | None
-		status: DF.Literal["Passive", "Open", "Replied"]
 		sync_with_google_contacts: DF.Check
-		unsubscribed: DF.Check
 		user: DF.Link | None
 	# end: auto-generated types
 	def autoname(self):
