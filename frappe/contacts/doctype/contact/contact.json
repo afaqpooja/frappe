@@ -38,8 +38,7 @@
   "contact_details",
   "links",
   "is_primary_contact",
-  "references_tab",
-  "refs"
+  "references_tab"
  ],
  "fields": [
   {
@@ -249,11 +248,6 @@
    "fieldname": "references_tab",
    "fieldtype": "Tab Break",
    "label": "References"
-  },
-  {
-   "fieldname": "refs",
-   "fieldtype": "Table",
-   "options": "References"
   }
  ],
  "icon": "fa fa-user",
@@ -261,7 +255,7 @@
  "image_field": "image",
  "index_web_pages_for_search": 1,
  "links": [],
- "modified": "2023-08-24 22:34:56.893487",
+ "modified": "2023-08-25 00:23:05.494702",
  "modified_by": "Administrator",
  "module": "Contacts",
  "name": "Contact",

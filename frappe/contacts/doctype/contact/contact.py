@@ -20,7 +20,6 @@ class Contact(Document):
 		from frappe.contacts.doctype.contact_phone.contact_phone import ContactPhone
 		from frappe.core.doctype.dynamic_link.dynamic_link import DynamicLink
 		from frappe.types import DF
-		from home_portal.home_portal.doctype.references.references import References
 
 		address: DF.Link | None
 		company_name: DF.Data | None
@@ -41,7 +40,6 @@ class Contact(Document):
 		phone: DF.Data | None
 		phone_nos: DF.Table[ContactPhone]
 		pulled_from_google_contacts: DF.Check
-		refs: DF.Table[References]
 		role: DF.Literal['Seeker', 'Provider', 'Reference']
 		sync_with_google_contacts: DF.Check
 		user: DF.Link | None
