@@ -20,19 +20,20 @@ class Contact(Document):
 		from frappe.contacts.doctype.contact_phone.contact_phone import ContactPhone
 		from frappe.core.doctype.dynamic_link.dynamic_link import DynamicLink
 		from frappe.types import DF
+		from home_portal.home_portal.doctype.references.references import References
 
 		address: DF.Link | None
 		company_name: DF.Data | None
 		email_id: DF.Data | None
 		email_ids: DF.Table[ContactEmail]
-		first_name: DF.Data | None
+		first_name: DF.Data
 		full_name: DF.Data | None
 		gender: DF.Link | None
 		google_contacts: DF.Link | None
 		google_contacts_id: DF.Data | None
 		image: DF.AttachImage | None
 		is_primary_contact: DF.Check
-		last_name: DF.Data | None
+		last_name: DF.Data
 		links: DF.Table[DynamicLink]
 		middle_name: DF.Data | None
 		mobile_no: DF.Data | None
@@ -40,6 +41,8 @@ class Contact(Document):
 		phone: DF.Data | None
 		phone_nos: DF.Table[ContactPhone]
 		pulled_from_google_contacts: DF.Check
+		refs: DF.Table[References]
+		role: DF.Literal['Seeker', 'Provider', 'Reference']
 		sync_with_google_contacts: DF.Check
 		user: DF.Link | None
 	# end: auto-generated types

@@ -37,7 +37,9 @@
   "related_tab",
   "contact_details",
   "links",
-  "is_primary_contact"
+  "is_primary_contact",
+  "references_tab",
+  "refs"
  ],
  "fields": [
   {
@@ -46,20 +48,23 @@
    "options": "fa fa-user"
   },
   {
+   "allow_in_quick_entry": 1,
    "fieldname": "first_name",
    "fieldtype": "Data",
    "in_global_search": 1,
    "label": "First Name",
    "oldfieldname": "first_name",
-   "oldfieldtype": "Data"
+   "oldfieldtype": "Data",
+   "reqd": 1
   },
   {
-   "bold": 1,
+   "allow_in_quick_entry": 1,
    "fieldname": "last_name",
    "fieldtype": "Data",
    "label": "Last Name",
    "oldfieldname": "last_name",
-   "oldfieldtype": "Data"
+   "oldfieldtype": "Data",
+   "reqd": 1
   },
   {
    "bold": 1,
@@ -87,6 +92,7 @@
    "fieldtype": "Column Break"
   },
   {
+   "allow_in_quick_entry": 1,
    "fieldname": "gender",
    "fieldtype": "Link",
    "label": "Gender",
@@ -143,18 +149,21 @@
    "label": "Google Contacts"
   },
   {
+   "allow_in_quick_entry": 1,
    "fieldname": "email_ids",
    "fieldtype": "Table",
    "label": "Email IDs",
    "options": "Contact Email"
   },
   {
+   "allow_in_quick_entry": 1,
    "fieldname": "address",
    "fieldtype": "Link",
    "label": "Address",
    "options": "Address"
   },
   {
+   "allow_in_quick_entry": 1,
    "fieldname": "phone_nos",
    "fieldtype": "Table",
    "label": "Contact Numbers",
@@ -209,11 +218,11 @@
   {
    "fieldname": "full_name",
    "fieldtype": "Data",
-   "hidden": 1,
    "label": "Full Name",
    "read_only": 1
   },
   {
+   "allow_in_quick_entry": 1,
    "fieldname": "other_names_used",
    "fieldtype": "Data",
    "label": "Other Names Used"
@@ -229,11 +238,22 @@
    "label": "Related"
   },
   {
+   "allow_in_quick_entry": 1,
    "fieldname": "role",
    "fieldtype": "Select",
    "label": "Role",
-   "options": "Seeker\nProvider",
+   "options": "Seeker\nProvider\nReference",
    "reqd": 1
+  },
+  {
+   "fieldname": "references_tab",
+   "fieldtype": "Tab Break",
+   "label": "References"
+  },
+  {
+   "fieldname": "refs",
+   "fieldtype": "Table",
+   "options": "References"
   }
  ],
  "icon": "fa fa-user",
@@ -241,7 +261,7 @@
  "image_field": "image",
  "index_web_pages_for_search": 1,
  "links": [],
- "modified": "2023-08-24 17:57:40.716756",
+ "modified": "2023-08-24 22:34:56.893487",
  "modified_by": "Administrator",
  "module": "Contacts",
  "name": "Contact",
@@ -370,6 +390,7 @@
    "role": "All"
   }
  ],
+ "quick_entry": 1,
  "show_title_field_in_link": 1,
  "sort_field": "modified",
  "sort_order": "ASC",

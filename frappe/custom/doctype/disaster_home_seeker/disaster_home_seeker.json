@@ -1,0 +1,340 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "creation": "2023-08-24 13:18:03.891390",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "attach_image_xntu",
+  "name_field",
+  "column_break_qqrk",
+  "other_names_used",
+  "contact_information",
+  "about_section",
+  "additional_applicants",
+  "type_of_disaster_recovery_accommodations_interested_in",
+  "livestock_boarding",
+  "total_livestock_needing_accommodations",
+  "type_of_livestock",
+  "room_in_home",
+  "detached_dwelling_unit",
+  "non_residential_unit",
+  "rv",
+  "rv_parking_space",
+  "total_people_seeking_accommodations",
+  "total_children_in_household",
+  "ages_of_each_child",
+  "total_pets_in_household",
+  "types_of_each_pet_and_weights",
+  "required_accommodations",
+  "specifics_section",
+  "private_bathroom",
+  "private_entrance",
+  "accommodations_for_mobility",
+  "ground_floor_access",
+  "shower_access",
+  "wheelchair_access",
+  "other_accommodations_for_mobility",
+  "children_in_home",
+  "no_children_in_home",
+  "placement_with_disaster_survivor_home_provider",
+  "tobacco_smoking_ok",
+  "transportation_assistance",
+  "just_drop_off_pickup",
+  "proximity_to_public_transportation",
+  "general_transportation_assistance",
+  "special_accommodations_required",
+  "special_accommodations_explanation",
+  "language_assistance",
+  "preferred_language_of_household",
+  "brief_description_of_disaster",
+  "expected_duration_of_temporary_housing",
+  "interested_in_long_term_match",
+  "need_for_case_management_services",
+  "support_from_other_organizations",
+  "references"
+ ],
+ "fields": [
+  {
+   "fieldname": "attach_image_xntu",
+   "fieldtype": "Attach Image"
+  },
+  {
+   "fieldname": "name_field",
+   "fieldtype": "Data",
+   "label": "Name"
+  },
+  {
+   "fieldname": "column_break_qqrk",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "other_names_used",
+   "fieldtype": "Data",
+   "label": "Other Names Used"
+  },
+  {
+   "fieldname": "contact_information",
+   "fieldtype": "Link",
+   "label": "Contact Information",
+   "options": "Contact"
+  },
+  {
+   "fieldname": "about_section",
+   "fieldtype": "Section Break",
+   "label": "About"
+  },
+  {
+   "fieldname": "additional_applicants",
+   "fieldtype": "Read Only",
+   "label": "Additional Applicants",
+   "options": "Additional Applicant"
+  },
+  {
+   "default": "0",
+   "fieldname": "type_of_disaster_recovery_accommodations_interested_in",
+   "fieldtype": "Check",
+   "label": "Type of Disaster Recovery Accommodations Interested In"
+  },
+  {
+   "default": "0",
+   "fieldname": "livestock_boarding",
+   "fieldtype": "Check",
+   "label": "Livestock Boarding"
+  },
+  {
+   "fieldname": "total_livestock_needing_accommodations",
+   "fieldtype": "Int",
+   "label": "Total number of Livestock Needing disaster recovery accommodations"
+  },
+  {
+   "fieldname": "type_of_livestock",
+   "fieldtype": "Data",
+   "label": "Type of livestock"
+  },
+  {
+   "default": "0",
+   "fieldname": "room_in_home",
+   "fieldtype": "Check",
+   "label": "Room in Home"
+  },
+  {
+   "default": "0",
+   "fieldname": "detached_dwelling_unit",
+   "fieldtype": "Check",
+   "label": "Detached Dwelling Unit"
+  },
+  {
+   "default": "0",
+   "fieldname": "non_residential_unit",
+   "fieldtype": "Check",
+   "label": "Non-Residential Unit"
+  },
+  {
+   "default": "0",
+   "fieldname": "rv",
+   "fieldtype": "Check",
+   "label": "RV"
+  },
+  {
+   "default": "0",
+   "fieldname": "rv_parking_space",
+   "fieldtype": "Check",
+   "label": "RV Parking Space"
+  },
+  {
+   "fieldname": "total_people_seeking_accommodations",
+   "fieldtype": "Int",
+   "label": "Total number of people in your household seeking disaster recovery accommodations"
+  },
+  {
+   "fieldname": "total_children_in_household",
+   "fieldtype": "Int",
+   "label": "Total number of children in household in need of disaster recovery accommodations"
+  },
+  {
+   "fieldname": "ages_of_each_child",
+   "fieldtype": "Data",
+   "label": "Ages of each child"
+  },
+  {
+   "fieldname": "total_pets_in_household",
+   "fieldtype": "Int",
+   "label": "Total number of pets in your household needing disaster recovery accommodations"
+  },
+  {
+   "fieldname": "types_of_each_pet_and_weights",
+   "fieldtype": "Data",
+   "label": "Types of each pet and approximate weights"
+  },
+  {
+   "default": "0",
+   "fieldname": "required_accommodations",
+   "fieldtype": "Check",
+   "label": "Required Accommodations"
+  },
+  {
+   "fieldname": "specifics_section",
+   "fieldtype": "Section Break",
+   "label": "Specifics"
+  },
+  {
+   "default": "0",
+   "fieldname": "private_bathroom",
+   "fieldtype": "Check",
+   "label": "Private Bathroom"
+  },
+  {
+   "default": "0",
+   "fieldname": "private_entrance",
+   "fieldtype": "Check",
+   "label": "Private Entrance"
+  },
+  {
+   "default": "0",
+   "fieldname": "accommodations_for_mobility",
+   "fieldtype": "Check",
+   "label": "Accommodations for Mobility"
+  },
+  {
+   "default": "0",
+   "fieldname": "ground_floor_access",
+   "fieldtype": "Check",
+   "label": "Ground Floor Access"
+  },
+  {
+   "default": "0",
+   "fieldname": "shower_access",
+   "fieldtype": "Check",
+   "label": "Shower Access"
+  },
+  {
+   "default": "0",
+   "fieldname": "wheelchair_access",
+   "fieldtype": "Check",
+   "label": "Wheelchair Access"
+  },
+  {
+   "fieldname": "other_accommodations_for_mobility",
+   "fieldtype": "Data",
+   "label": "Other Accommodations for Mobility"
+  },
+  {
+   "default": "0",
+   "fieldname": "children_in_home",
+   "fieldtype": "Check",
+   "label": "Children in Home"
+  },
+  {
+   "default": "0",
+   "fieldname": "no_children_in_home",
+   "fieldtype": "Check",
+   "label": "No Children in Home"
+  },
+  {
+   "default": "0",
+   "fieldname": "placement_with_disaster_survivor_home_provider",
+   "fieldtype": "Check",
+   "label": "Placement with a home provider who is also a disaster survivor"
+  },
+  {
+   "default": "0",
+   "fieldname": "tobacco_smoking_ok",
+   "fieldtype": "Check",
+   "label": "Tobacco Smoking OK"
+  },
+  {
+   "default": "0",
+   "fieldname": "transportation_assistance",
+   "fieldtype": "Check",
+   "label": "Transportation Assistance"
+  },
+  {
+   "default": "0",
+   "fieldname": "just_drop_off_pickup",
+   "fieldtype": "Check",
+   "label": "Just Drop Off/Pickup"
+  },
+  {
+   "default": "0",
+   "fieldname": "proximity_to_public_transportation",
+   "fieldtype": "Check",
+   "label": "Proximity to Public Transportation"
+  },
+  {
+   "default": "0",
+   "fieldname": "general_transportation_assistance",
+   "fieldtype": "Check",
+   "label": "General Transportation Assistance"
+  },
+  {
+   "default": "0",
+   "fieldname": "special_accommodations_required",
+   "fieldtype": "Check",
+   "label": "Chronic or Acute Condition that Requires Special Accommodations"
+  },
+  {
+   "fieldname": "special_accommodations_explanation",
+   "fieldtype": "Data",
+   "label": "Explanation of Special Accommodations"
+  },
+  {
+   "default": "0",
+   "fieldname": "language_assistance",
+   "fieldtype": "Check",
+   "label": "Language Assistance"
+  },
+  {
+   "fieldname": "preferred_language_of_household",
+   "fieldtype": "Data",
+   "label": "Preferred Language of Household"
+  },
+  {
+   "fieldname": "brief_description_of_disaster",
+   "fieldtype": "Text",
+   "label": "Brief Description of the Disaster"
+  },
+  {
+   "fieldname": "expected_duration_of_temporary_housing",
+   "fieldtype": "Data",
+   "label": "Expected Duration of Temporary Housing"
+  },
+  {
+   "default": "0",
+   "fieldname": "interested_in_long_term_match",
+   "fieldtype": "Check",
+   "label": "Interested in Also Applying for a Long-term Match in the Standard Home & Heart Home-sharing Program"
+  },
+  {
+   "default": "0",
+   "fieldname": "need_for_case_management_services",
+   "fieldtype": "Check",
+   "label": "Need for Additional Case Management Services"
+  },
+  {
+   "default": "0",
+   "fieldname": "support_from_other_organizations",
+   "fieldtype": "Check",
+   "label": "Support from Other Organizations"
+  },
+  {
+   "fieldname": "references",
+   "fieldtype": "Table",
+   "label": "References",
+   "options": "References"
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "links": [],
+ "modified": "2023-08-24 20:49:47.827307",
+ "modified_by": "Administrator",
+ "module": "Custom",
+ "name": "Disaster Home Seeker",
+ "owner": "Administrator",
+ "permissions": [],
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": [],
+ "track_changes": 1
+}
